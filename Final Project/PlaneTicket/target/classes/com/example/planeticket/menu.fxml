@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #222;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.planeticket.controller.menuController">
+   <children>
+      <Label fx:id="usernameLabel" layoutX="9.0" layoutY="14.0" prefHeight="56.0" prefWidth="683.0" text="Welcome username! Select your ticket(s)." textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic Light" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="209.0" prefHeight="39.0" prefWidth="103.0" text="Philippines" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic UI Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="592.0" layoutY="209.0" prefHeight="39.0" prefWidth="62.0" text="Japan" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic UI Light" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="209.0" prefHeight="39.0" prefWidth="62.0" text="China" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic UI Light" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="72.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/icons8-philippines-40.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="588.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/icons8-japan-40.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="81.0" layoutX="321.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/icons8-china-40.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="philippinesPlusButton" layoutX="26.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="+" textFill="#ffc745" />
+      <Button fx:id="philippinesMinusButton" layoutX="155.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="-" textFill="#ffc745" />
+      <Button fx:id="chinaPlusButton" layoutX="294.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="+" textFill="#ffc745" />
+      <Button fx:id="chinaMinusButton" layoutX="382.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="-" textFill="#ffc745" />
+      <Button fx:id="japanPlusButton" layoutX="559.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="+" textFill="#ffc745" />
+      <Button fx:id="japanMinusButton" layoutX="645.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: #222;" text="-" textFill="#ffc745" />
+      <Button fx:id="backMenuButton" layoutX="12.0" layoutY="361.0" mnemonicParsing="false" style="-fx-background-color: #222;" text="back" textFill="#ffc745" />
+      <Button fx:id="confirmMenuButton" layoutX="301.0" layoutY="361.0" mnemonicParsing="false" style="-fx-background-color: #222;" text="confirm" textFill="#ffc745" />
+      <Label fx:id="totalCounterLabel" layoutX="261.0" layoutY="281.0" prefHeight="39.0" prefWidth="136.0" text="0" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic UI Light" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

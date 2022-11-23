@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #222;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.planeticket.controller.loginController">
+   <children>
+      <Label layoutX="226.0" layoutY="27.0" prefHeight="68.0" prefWidth="249.0" text="Welcome to Traveland!" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic UI Light" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" layoutX="282.0" layoutY="141.0" promptText="username">
+         <font>
+            <Font name="Yu Gothic Light" size="12.0" />
+         </font></TextField>
+      <Button fx:id="loginButton" layoutX="320.0" layoutY="244.0" mnemonicParsing="false" style="-fx-background-color: #222;" text="Log In" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic Light" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="565.0" layoutY="107.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="535.0" layoutY="141.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="27.0" layoutY="27.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="57.0" layoutY="54.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="145.0" layoutY="286.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="117.0" layoutY="252.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+      <AnchorPane layoutX="615.0" layoutY="309.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;">
+         <children>
+            <AnchorPane layoutX="-28.0" layoutY="-31.0" prefHeight="68.0" prefWidth="60.0" style="-fx-background-color: #FFC745;" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="signUpGotoButton" layoutX="316.0" layoutY="286.0" mnemonicParsing="false" style="-fx-background-color: #222;" text="Sign Up" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic Light" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="contactGotoButton" layoutX="304.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: #222;" text="Need Help?" textFill="#ffc745">
+         <font>
+            <Font name="Yu Gothic Light" size="15.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextField" layoutX="282.0" layoutY="188.0" prefHeight="25.0" prefWidth="138.0" promptText="password">
+         <font>
+            <Font name="Yu Gothic UI Light" size="12.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
